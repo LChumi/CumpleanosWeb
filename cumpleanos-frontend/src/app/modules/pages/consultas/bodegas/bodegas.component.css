@@ -1,0 +1,28 @@
+.wrapper {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content {
+    text-align: center;
+}
+.container {
+    max-width:500px;
+    margin: 20px auto;
+    border: 2px solid #748bcf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+.titulo {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.list-group {
+    list-style: armenian;
+    padding: 0;
+}
+
+  

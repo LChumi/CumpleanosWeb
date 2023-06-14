@@ -1,0 +1,47 @@
+.vcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}

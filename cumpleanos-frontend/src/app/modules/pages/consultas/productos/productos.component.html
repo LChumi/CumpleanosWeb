@@ -1,0 +1,29 @@
+<p></p>
+<div class="container">
+    <form>
+        <div class="vcard-container">
+            <div class="vcard">
+                
+                <div class="details">
+                    <h2 >{{producto.pro_nombre}}</h2>
+                    <p> {{producto.pro_id}}</p>
+                    <p> {{producto.pro_id1}}</p>
+                    <p> {{producto.pvp}}</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <p></p>
+    <p class="text-center">Lector de Codigo de Barras</p>
+</div>
+<section>
+    <div class="container">
+      <div class="dis-sto">
+        <input type="text" [(ngModel)]="barra" placeholder="Ingrese la barra" (keyup.enter)="mostrarProducto()" (keydown)="clearInput($event)">
+      </div>
+    </div>
+  </section>
+  
+  
