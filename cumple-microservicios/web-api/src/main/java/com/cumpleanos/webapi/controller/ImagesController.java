@@ -14,7 +14,7 @@ public class ImagesController {
     @GetMapping(value = "/images/{imageName}", produces = MediaType.IMAGE_JPEG_VALUE)
     @ResponseBody
     public FileSystemResource getImage(@PathVariable String imageName) {
-        String imagePath = "C:/images/" + imageName; // Ruta completa a la imagen
+        String imagePath = "C:/Imagenes/" + imageName; // Ruta completa a la imagen
         FileSystemResource resource = new FileSystemResource(imagePath);
         return resource;
     }
